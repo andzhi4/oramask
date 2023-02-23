@@ -21,6 +21,7 @@ ora_sft_map = {
     'PM': '%p',
     'TZD': '%Z',
     'TZR': '%z',
+    'TZ': '%Z',
 }
 
 sft_ora_map = {v: k for k, v in ora_sft_map.items()}
@@ -28,8 +29,9 @@ sft_ora_map = {v: k for k, v in ora_sft_map.items()}
 
 def ora_to_sft(ora_mask: str) -> str:
     if ora_mask:
+        ora_mask = ora_mask.upper()
         mask_elems = '|'.join(list(ora_sft_map.keys()))
-        pattern = re.compile(fr'\b({mask_elems})\b')
+        pattern = re.compile(fr'({mask_elems})')
         result = re.sub(pattern, lambda x: ora_sft_map[x.group()], ora_mask)
         return result
     else:

@@ -1,7 +1,7 @@
 [![build status](https://github.com/andzhi4/raws/actions/workflows/matrix-test.yml/badge.svg)](https://github.com/andzhi4/raws/actions/workflows/matrix-test.yml)
-# ORAMASK
+# oramask
 
-ORAMASK is a very simple converter of Oracle specific date/time masks to Python's strftime masks.
+oramask is a simplistic converter of Oracle specific date/time masks to Python's strftime masks.
 
 ## Installation
 
@@ -35,7 +35,7 @@ If you find a bug or have an idea for a new feature, feel free to create an issu
 
 ## License
 
-RAWS is released under the MIT License.
+oramask is released under the MIT License.
 
 
 
