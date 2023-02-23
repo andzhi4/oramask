@@ -17,7 +17,7 @@ python3 -m pip install oramask
 ```
 
 ## Examples
-Here are a few examples of how to use the AWS Profile Manager:
+Here are a few examples of how to use the oramask:
 
 Show all available profiles:
 ```python
