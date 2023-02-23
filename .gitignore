@@ -1,0 +1,11 @@
+__pycache__
+*.egg-info
+*.pyc
+/.coverage
+/.ipynb*
+/.mypy*
+/.pytest_cache
+/.tox
+build
+temp_*
+dist
