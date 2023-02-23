@@ -23,8 +23,8 @@ import oramask
 from datetime import datetime
 
 now = datetime.now()
-now.strftime(ora_to_sft('DD-MON-YYYY HH24:MI:SS'))
-print(now)
+formatted = now.strftime(ora_to_sft('DD-MON-YYYY HH24:MI:SS'))
+print(formatted)
 ```
 
 ## Contributing
