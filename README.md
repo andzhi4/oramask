@@ -1,7 +1,7 @@
 [![build status](https://github.com/andzhi4/raws/actions/workflows/matrix-test.yml/badge.svg)](https://github.com/andzhi4/raws/actions/workflows/matrix-test.yml)
 # oramask
 
-oramask is a simplistic converter of Oracle specific date/time masks to Python's strftime masks.
+Oramask is a simplistic converter of Oracle specific date/time masks to Python's strftime masks.
 
 ## Installation
 
@@ -17,9 +17,7 @@ python3 -m pip install oramask
 ```
 
 ## Examples
-Here are a few examples of how to use the oramask:
-
-Show all available profiles:
+Here is an example of usage:
 ```python
 import oramask
 from datetime import datetime
@@ -35,7 +33,7 @@ If you find a bug or have an idea for a new feature, feel free to create an issu
 
 ## License
 
-oramask is released under the MIT License.
+Oramask is released under the MIT License.
 
 
 
