@@ -19,12 +19,13 @@ python3 -m pip install oramask
 ## Examples
 Here is an example of usage:
 ```python
-import oramask
+from oramask import ora_to_sft
 from datetime import datetime
 
 now = datetime.now()
 formatted = now.strftime(ora_to_sft('DD-MON-YYYY HH24:MI:SS'))
 print(formatted)
+# Output: 23-Feb-2023 17:51:15
 ```
 
 ## Contributing
