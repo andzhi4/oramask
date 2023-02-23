@@ -1,4 +1,4 @@
-[![build status](https://github.com/andzhi4/raws/actions/workflows/matrix-test.yml/badge.svg)](https://github.com/andzhi4/raws/actions/workflows/matrix-test.yml)
+[![build status](https://github.com/andzhi4/oramask/actions/workflows/matrix-test.yml/badge.svg)](https://github.com/andzhi4/oramask/actions/workflows/matrix-test.yml)
 # oramask
 
 Oramask is a simplistic converter of Oracle specific date/time masks to Python's strftime masks.
