@@ -44,7 +44,8 @@ jobs:
     
     - name: Typecheck with mypy
       run: |
-          mypy raws.py  # TODO: remove hardcoded module name
+          mypy oramask.py  # TODO: remove hardcoded module name
+
     - name: Test with pytest
       run: |
         pytest
