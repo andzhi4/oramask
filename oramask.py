@@ -11,9 +11,9 @@ ora_sft_map = {
     'DD': '%d',
     'DY': '%a',
     'DAY': '%A',
-    'HH12': '%I',
     'HH24': '%H',
-    'HH': '%H',
+    'HH12': '%I',
+    'HH': '%I',
     'MI': '%M',
     'SSSS': '%f',
     'SS': '%S',
@@ -25,6 +25,7 @@ ora_sft_map = {
 }
 
 sft_ora_map = {v: k for k, v in ora_sft_map.items()}
+
 
 
 def ora_to_sft(ora_mask: str) -> str:

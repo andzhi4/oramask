@@ -24,9 +24,11 @@ def test_ora_to_sft(input, result):
 @pytest.mark.parametrize(('input', 'result'),
                          (
     ('', ''),
-    ('%H:%M:%S', 'HH:MI:SS'),
-    ( '%H%M%S', 'HHMISS'),
+    ('%H:%M:%S', 'HH24:MI:SS'),
+    ('%H%M%S', 'HH24MISS'),
     ('%Y%m%d', 'YYYYMMDD'),
+    ('%Y%m%d%H%M%S', 'YYYYMMDDHH24MISS'),
+    ('%Y%m%d%I%M%S', 'YYYYMMDDHHMISS'),
 )
 )
 def test_sft_to_ora(input, result):
